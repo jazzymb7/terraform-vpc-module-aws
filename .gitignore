@@ -1,0 +1,40 @@
+# Terraform State Files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually intended to be ignored
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore auto-generated files by Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive files
+# These files might contain sensitive information like credentials or environment-specific variables.
+# Be sure to manage them securely using a secret management tool.
+terraform.tfvars
+secrets.tfvars
+backend.tfvars
+
+# Ignore plan output files
+*.tfplan
+
+# IDE directories and files (Optional, depending on your development environment)
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# macOS files (if working on macOS)
+.DS_Store
