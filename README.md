@@ -72,7 +72,3 @@ This repository provides a Terraform module for creating AWS VPCs with separate 
 - Public Route Tables with routes to the Internet Gateway
 - Private Route Tables (without routes to the Internet)
 - Route Table associations for public and private subnets.
-
-## License
-
-This module is licensed under the MIT License.
